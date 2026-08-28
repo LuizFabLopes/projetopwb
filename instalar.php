@@ -1,9 +1,7 @@
-<?php
-
+<?php 
 include "conexao.php";
-
 $sql = "
-CREATE TABLE IF NOT EXISTS usuario (
+CREATE TABLE if not exists usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     login VARCHAR(150) NOT NULL UNIQUE,
@@ -11,6 +9,7 @@ CREATE TABLE IF NOT EXISTS usuario (
     ativo BOOLEAN NOT NULL DEFAULT TRUE
 );
 ";
+
 $resultado = mysqli_query($conexao, $sql);
 if($resultado == 1)
 {
@@ -18,6 +17,6 @@ if($resultado == 1)
 }
 else
 {
-    echo "Houve um erro ao rodar instalação";
+    echo "Houve um erro ao rodar a instalação";
 }
 ?>

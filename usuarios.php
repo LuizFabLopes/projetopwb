@@ -1,24 +1,25 @@
 <?php include "cabecalho.php"; ?>
-
 <div class="row">
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                Pesquisar Usuarios
+                Pesquisar Usuários
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-2">
                         <a href="novoUsuario.php" class="btn btn-success">
-                            Novo Usuarios
+                            Novo Usuário
                         </a>
-                    </div><!--Fechador da col-2-->
+                    </div><!-- Fechador da col-2 -->
                     <div class="col-8">
 
-                    </div><!--Fechador da col-8-->
-                </div><!--Fechador da row-->
-            </div><!--Fechador do card body-->
-        </div><!--Fechador do card-->
-    </div><!--Fechador dao col-12-->
-</div><!--Fechador da row-->
+                    </div><!-- Fechador da col-8 -->
+                </div><!-- Fechador da ROw -->
+
+            </div><!-- Fechador do card-body -->
+        </div><!-- Fechador do Card -->
+    </div><!-- Fechador da col-12 -->
+</div><!-- fechador da ROW -->
+
 <?php include "rodape.php"; ?>
