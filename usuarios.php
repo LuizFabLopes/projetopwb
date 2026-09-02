@@ -13,7 +13,12 @@
                         </a>
                     </div><!-- Fechador da col-2 -->
                     <div class="col-8">
-
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control">
+                            <button class="btn btn-outline-secondary" type="button">
+                                Button
+                            </button>
+                        </div>
                     </div><!-- Fechador da col-8 -->
                 </div><!-- Fechador da ROw -->
 

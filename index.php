@@ -32,10 +32,11 @@
                     <label for="senha">Senha</label>
                     <input class="form-control" type="password" name="senha" id="senha"/>
                     <div class="row mt-3">
-                        <div class="col-md-6"><button type="submit" class="btn btn-primary">
+                        <div class="col-md-6">
+                            <button type="submit" class="btn btn-primary">
                                 Entrar
-                            </button></div>
-                            
+                            </button>
+                        </div>
                         <div class="col-md-6 align-item-center d-flex justify-content-center">
                             <input type="checkbox" class="form-check-input mx-2" value="senha"/>Salvar Senha
                         </div>
