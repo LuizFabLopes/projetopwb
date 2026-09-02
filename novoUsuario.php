@@ -3,6 +3,7 @@
 <div class="row">
     <div class="col-4"></div>
     <div class="col-4">
+        <h2 class="mb-5">Cadastro de usuário</h2>
         <form action="salvarUsuario.php" method="post" class=">
             <input name="id" type="hidden"/>
             <div class="row align-items-center mb-3">
@@ -37,17 +38,24 @@
                     <input class="form-control" name="senha" type="password" />
                 </div>
             </div>
-            <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
-                <label class="form-check-label" for="switchCheckDefault">Usuarios Ativos</label>
-            </div>
-            <div class="row">
-                <div class="col-4"></div>
-                <div class="col-4">
-                     <input class="form-check-input" type="radio" name="ativo" id="radioDefault1">Opa
-                     <input class="form-check-input" type="radio" name="desativo" id="exampleRadios3" value="option3" disabled>Opa
+            <div class="row align-items-center mb-3">
+                <div class="col-2"> Ativo:</div>
+                <div class="col-10">
+                    
+                        <input class="form-check-input" type="radio" name="ativo" checked> Sim
+                        <input class="form-check-input ms-5" type="radio" name="ativo" value="0" > Não
                 </div>
+               
+            </div><!-- Linha do Radio Ativo -->
+            <div class="row align-items-center mb-3">
+                <div class="col-12 text-end">
+                    <button class="btn btn-success " type="submit" >
+                        Salvar Usuário
+                    </button>
+                </div>
+                
             </div>
+
         </form>
     </div>
     <div class="col-4"></div>
