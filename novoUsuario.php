@@ -16,14 +16,6 @@
             </div>
             <div class="row align-items-center mb-3">
                 <div class="col-2">
-                    Email:
-                </div>
-                <div class="col-10">
-                    <input class="form-control" name="email" type="text" />
-                </div>
-            </div>
-            <div class="row align-items-center mb-3">
-                <div class="col-2">
                     Login:
                 </div>
                 <div class="col-10">
@@ -41,7 +33,6 @@
             <div class="row align-items-center mb-3">
                 <div class="col-2"> Ativo:</div>
                 <div class="col-10">
-                    
                         <input class="form-check-input" type="radio" name="ativo" checked> Sim
                         <input class="form-check-input ms-5" type="radio" name="ativo" value="0" > Não
                 </div>
